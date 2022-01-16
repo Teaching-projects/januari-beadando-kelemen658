@@ -83,7 +83,7 @@ if alakzat=="haromszog" and kt=="terulet":
         print(derekszogut(a,b),"a háromszögterülete.")
 
 if alakzat=="haromszog" and kt=="kerulet":
-    milyen=input("Milyen háromszögnek szeretné számolni a területét?(altalanos,egyenloszaru,egyenlo oldalu,derekszogu:)")
+    milyen=input("Milyen háromszögnek szeretné számolni a kerületét?(altalanos,egyenloszaru,egyenlo oldalu,derekszogu:)")
     if milyen=="altalanos" or "derekszogu":
         a=int(input("Adja meg a háromszög a oldalát:"))
         b=int(input("Adja meg a háromszög b oldalát:"))
